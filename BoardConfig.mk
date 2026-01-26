@@ -88,7 +88,7 @@ BOARD_MAIN_PARTITION_LIST := system system_ext vendor product
 
 # Partitions size
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
-BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
+BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296 #New partition size possible due to "Universal Boot Repartitioner + GPT Backup" (will elaborate in README.md later)
 TARGET_USERIMAGES_USE_F2FS := true
 
 # File systems
